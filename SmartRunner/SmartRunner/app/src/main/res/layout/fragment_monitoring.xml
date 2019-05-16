@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/test_TextView"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="당신의 동작"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/lock_state"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Myo 활성 / 비활성 여부"
+        android:textSize="30dp"
+        android:layout_margin="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X축 = "
+            android:textSize="30dp"/>
+
+        <TextView
+            android:id="@+id/vectorX"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Y축 = "
+            android:textSize="30dp"/>
+
+        <TextView
+            android:id="@+id/vectorY"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Z축 = "
+            android:textSize="30dp"/>
+
+        <TextView
+            android:id="@+id/vectorZ"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
